@@ -6,6 +6,7 @@ public class openPanel : MonoBehaviour
 {
     public GameObject gameObject;
     bool active;
+    bool shyam;
     public void openAndClose()
     {
         if(active==false)
