@@ -13,11 +13,14 @@ EditorBuildSettings:
     guid: a8eb2700486e754459ce92a950c11e99
   - enabled: 0
     path: 
-    guid: a1d3b954f8e63bd4e81017016faf770b
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Frontend/Scenes/Page_1.unity
     guid: 730c148db06b42a4ca17c6a63df82ed6
   - enabled: 1
     path: Assets/Frontend/Scenes/Page_2.unity
     guid: 8163e5ed6ce3b25479b48bdfe84087b0
+  - enabled: 0
+    path: Assets/Frontend/Scenes/Exit_Page.unity
+    guid: 967b00b8de633de45824566d77a1e944
   m_configObjects: {}

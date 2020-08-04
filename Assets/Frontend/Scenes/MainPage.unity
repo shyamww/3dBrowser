@@ -522,7 +522,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1044228658
 RectTransform:
   m_ObjectHideFlags: 0
@@ -704,7 +704,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1271883830
 RectTransform:
   m_ObjectHideFlags: 0
@@ -907,7 +907,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1312571103}
-  m_LocalRotation: {x: -0.16896261, y: -0, z: -0, w: 0.98562247}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 212}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -916,10 +916,10 @@ RectTransform:
   - {fileID: 1044228658}
   m_Father: {fileID: 0}
   m_RootOrder: 8
-  m_LocalEulerAnglesHint: {x: -19.455002, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.15, y: 93}
+  m_AnchoredPosition: {x: 1.15, y: 40}
   m_SizeDelta: {x: 234.48, y: 117.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1354833918
@@ -958,8 +958,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -43.29, y: -10.73}
-  m_SizeDelta: {x: 86.58, y: 28.27}
+  m_AnchoredPosition: {x: 0.0000019073, y: 0}
+  m_SizeDelta: {x: 234.48, y: 117.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1354833920
 MonoBehaviour:
@@ -982,7 +982,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 0.7075472, g: 0.7075472, b: 0.7075472, a: 1}
-    m_HighlightedColor: {r: 0.12014952, g: 0.25579304, b: 0.9433962, a: 1}
+    m_HighlightedColor: {r: 0.72196513, g: 0.75170624, b: 0.9056604, a: 1}
     m_PressedColor: {r: 0.8301887, g: 0.21537916, b: 0.21537916, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -1081,8 +1081,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.00000047684, y: -0.0000091791}
-  m_SizeDelta: {x: 86.58, y: 28.27}
+  m_AnchoredPosition: {x: 0, y: -0.00024796}
+  m_SizeDelta: {x: 234.48, y: 117.38}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1465028553
 MonoBehaviour:
@@ -1109,15 +1109,15 @@ MonoBehaviour:
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 40
-    m_Alignment: 0
+    m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'WebSearch
+  m_Text: 'Welcome
 
-'
+    Click here for web searching'
 --- !u!222 &1465028554
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1395,6 +1395,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: KeyBoard
+      objectReference: {fileID: 0}
+    - target: {fileID: 8073770113681381491, guid: 429e733dc60bfe246a5e228cf7f43dd2,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8073770113681381492, guid: 429e733dc60bfe246a5e228cf7f43dd2,
         type: 3}
